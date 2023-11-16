@@ -12,12 +12,12 @@ To start using CPLang, follow these simple steps:
 - Installation: You can download CPLang interpreter from the [website](https://cp-lang.github.io) or build it from source.
 - Hello, World!: Create your first CPLang program by printing "Hello, World!" to the console.
 ```cplang
-print("Hello, World!")
+print("Hello, World!");
 ```
 - Learn the Basics: Explore the documentation and tutorials to understand CPLang's syntax, data types, and basic programming concepts.
 
 ## Documentation
-CPLang's documentation is available at https://cp-langu.github.io. This documentation includes:
+CPLang's documentation is available at https://cp-lang.github.io. This documentation includes:
 - A language reference guide
 - Tutorials
 - Examples
