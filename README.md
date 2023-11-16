@@ -5,7 +5,7 @@
 CPLang is a simple programming language developed for me to learn more about compilers and interpreters. This README provides an overview of CPLang's features.
 
 ## Features
-- CP files include
+- Library support
 
 ## Getting Started
 To start using CPLang, follow these simple steps:
