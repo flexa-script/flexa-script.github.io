@@ -70,7 +70,7 @@ while (count < 5) {
 }
 ```
 
-For more detailed information and examples, check out the [documentation](docs/).
+For more detailed information and examples, check out the [documentation](docs).
 
 ## Contributing
 
