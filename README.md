@@ -38,7 +38,7 @@ Hello, World!
 
 Declare a variable using the `var` keyword:
 
-```CP
+```cp
 var message = "Hello, CP!";
 print(message);
 ```
