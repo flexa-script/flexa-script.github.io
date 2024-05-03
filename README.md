@@ -1,9 +1,10 @@
 # CP Language
-CP is a beginner-friendly programming language designed to be easy to learn and understand. It's perfect for those new to programming and looking to build a solid foundation in coding concepts. While not recommended for experienced developers seeking advanced features, CP Language offers a straightforward and minimalistic syntax for learing and study purposes.
+CP is a toy programming language that draws inspiration from languages as C, Python, C#, and JavaScript.
 
 ## Features
-- **Simplicity:** CP focuses on simplicity, making it an ideal language for beginners to grasp the basics of programming.
-- **Readability:** The language prioritizes human readability, aiming to provide a clear and straightforward code structure.
+- **Readable Syntax:** Inspired by Python, CP boasts a clean and easily understandable syntax.
+- **Dynamic Typing:** Following the footsteps of Python and JavaScript, CP employs dynamic typing, enabling flexible variable declaration and manipulation without the need for explicit type annotations.
+- **Built-in Libraries:** With a rich set of built-in libraries and modules, CP provides powerful tools for tasks such as file I/O, networking, and mathematical operations, reducing the need for external dependencies.
 
 ## Getting Started
 
@@ -23,7 +24,7 @@ print("Hello, World!");
 Save this code in a file with a `.cp` extension, for example, `hello.cp`. Then, run it using the CP interpreter:
 
 ```bash
-./cp  hello.cp
+$ ./cp  hello.cp
 ```
 
 You should see the output:
