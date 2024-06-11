@@ -15,10 +15,20 @@ CP already has complex types, like:
 ## Variables
 To declare a variable, you can do it starting a statement with `var`, there are some examples:
 ```cp
-var str: string[10];
+var s: string[10];
 var i: int[3][3];
-struct Foo { var bar: int; };
+
+struct Foo {
+    var bar: string;
+    var baz: int;
+    var qux: float;
+};
+var str: Foo = Foo{bar="bar", baz=10, qux=5f};
+
+// functions
 var fun: function = () { print("Hello, world!"); };
+fun();
+
 ```
 
 
