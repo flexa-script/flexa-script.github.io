@@ -28,7 +28,7 @@ print(str); // will generate an error
 
 ```cp
 // initialize arrays
-var iarr: int[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+var iarr: int[3][3] = `{% raw %}{{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}{% endraw %}`;
 
 // or just initialize as null
 var sarr: string[10] = null;
