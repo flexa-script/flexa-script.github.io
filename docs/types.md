@@ -8,7 +8,7 @@ CP supports many types, declared or infered. The basic variable types are:
 - `string`: string values, e.g. `"Hello world!"`
 
 CP already has support to arrays, structs and functions:
-- Types can be arrays, e.g. `{"Hi", ",", "there"}`, `{{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}`
+- Types can be arrays, e.g. `{"Hi", ",", "there"}`, `{% raw %}{{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}{% endraw %}`
 - We can have struct values, e.g. `Foo{bar=0}`
 - And functions, e.g. `() { print("Hello, world!"); }`
 
