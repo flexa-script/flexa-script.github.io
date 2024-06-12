@@ -30,7 +30,7 @@ print(message);
 
 ## Control Flow
 
-CP supports basic control flow structures:
+CP supports some control flow structures, for example, the classic if-else statement:
 
 ```cp
 var number = 42;
@@ -44,8 +44,7 @@ if (number > 50) {
 
 ## Loops
 
-Use the `while` loop for repetitive tasks:
-
+The statement `while` is a possible loop for repetitive tasks:
 ```cp
 var count = 0;
 
@@ -54,3 +53,5 @@ while (count < 5) {
     count = count + 1;
 }
 ```
+
+See next: [Types](/types.md)
