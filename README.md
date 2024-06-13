@@ -33,44 +33,6 @@ You should see the output:
 Hello, World!
 ```
 
-## Language Basics
-
-### Variables
-
-Declare a variable using the `var` keyword:
-
-```cp
-var message = "Hello, CP!";
-print(message);
-```
-
-### Control Flow
-
-CP supports basic control flow structures:
-
-```cp
-var number = 42;
-
-if (number > 50) {
-    print("Greater than 50");
-} else {
-    print("Less than or equal to 50");
-}
-```
-
-### Loops
-
-Use the `while` loop for repetitive tasks:
-
-```cp
-var count = 0;
-
-while (count < 5) {
-    print(count);
-    count = count + 1;
-}
-```
-
 For more detailed information and examples, check out the [documentation](docs).
 
 ## Contributing
