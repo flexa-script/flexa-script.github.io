@@ -1,10 +1,10 @@
 # CP Language
-CP is a toy programming language that draws inspiration from languages as C, Python, C#, and JavaScript.
+CP is a toy programming language developed for fun.
 
 ## Features
-- **Readable Syntax:** Inspired by Python, CP boasts a clean and easily understandable syntax.
-- **Dynamic Typing:** Following the footsteps of Python and JavaScript, CP employs dynamic typing, enabling flexible variable declaration and manipulation without the need for explicit type annotations.
-- **Built-in Libraries:** With a rich set of built-in libraries and modules, CP provides powerful tools for tasks such as file I/O, networking, and mathematical operations, reducing the need for external dependencies.
+- Easy Syntax
+- Dynamic Typing
+- Built-in Libraries
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ CP is a toy programming language that draws inspiration from languages as C, Pyt
 To use CP, follow these steps:
 1. Download the release interpreter
 2. Navigate to the CP directory
-3. Run the CP interpreter: `./cp main.cp`
+3. Execute CP interpreter by running the following command: `./cp main.cp`
 
 ### Hello, World!
 Here's a classic "Hello, World!" program in CP:
@@ -33,7 +33,7 @@ You should see the output:
 Hello, World!
 ```
 
-For more detailed information and examples, check out the [documentation](docs).
+For more detailed information and examples, check out the [documentation](https://cp-lang.github.io/).
 
 ## Contributing
 
