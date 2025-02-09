@@ -1,5 +1,5 @@
-# CP Language
-CP is a toy programming language developed for fun.
+# Flexa Script Language
+Flexa is a toy programming language developed for fun.
 
 ## Features
 - Easy Syntax
@@ -9,22 +9,22 @@ CP is a toy programming language developed for fun.
 ## Getting Started
 
 ### Installation
-To use CP, follow these steps:
+To use Flexa, follow these steps:
 1. Download the release interpreter
-2. Navigate to the CP directory
-3. Execute CP interpreter by running the following command: `./cp main.cp`
+2. Navigate to the Flexa directory
+3. Execute Flexa interpreter by running the following command: `./flexa main.flx`
 
 ### Hello, World!
-Here's a classic "Hello, World!" program in CP:
+Here's a classic "Hello, World!" program in Flexa:
 
-```cp
+```flx
 print("Hello, World!");
 ```
 
-Save this code in a file with a `.cp` extension, for example, `hello.cp`. Then, run it using the CP interpreter:
+Save this code in a file with a `.flx` extension, for example, `hello.flx`. Then, run it using the Flexa interpreter:
 
 ```bash
-$ ./cp  hello.cp
+$ ./flexa  hello.flx
 ```
 
 You should see the output:
@@ -33,14 +33,12 @@ You should see the output:
 Hello, World!
 ```
 
-For more detailed information and examples, check out the [documentation](https://cp-lang.github.io/).
+For more detailed information and examples, check out the [documentation](https://flexa-script.github.io/).
 
 ## Contributing
 
-Contributions to CP are welcome! Whether you find a bug, have a feature request, or want to contribute code, please feel free to open an issue or submit a pull request.
+Contributions to Flexa are welcome! Whether you find a bug, have a feature request, or want to contribute code, please feel free to open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Happy coding with CP! 🚀
