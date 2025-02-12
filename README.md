@@ -1,44 +1,61 @@
-# Flexa Script Language
-Flexa is a toy programming language developed for fun.
+# Flexa Programming Language
+
+Welcome to the official documentation of the **Flexa Programming Language**! Flexa is a toy scripting language developed for fun.
 
 ## Features
-- Easy Syntax
-- Dynamic Typing
-- Built-in Libraries
+
+- **Simple Syntax**: Flexa's syntax is clean and easy to learn.
+- **Strong Typing**: Flexa supports static typing when defined, ensuring safer and more predictable code.
+- **Standard Library**: Flexa comes with a comprehensive set of built-in libraries for common tasks like file handling, networking, and data manipulation.
+- **Cross-Platform**: Write once, run anywhere. Flexa programs can be executed on multiple platforms without modification.
+- **Extensible**: Flexa allows you to create and use custom libraries, making it highly adaptable to your needs.
 
 ## Getting Started
 
-### Installation
-To use Flexa, follow these steps:
-1. Download the interpreter [release](https://github.com/flexa-script/interpreter)
-2. Navigate to the Flexa directory
-3. Execute Flexa interpreter by running the following command: `./flexa main.flx`
+1. **Install Flexa**: Download and install the Flexa interpretor from the [official repository](https://github.com/flexa-script/interpreter).
+2. **Write Your First Program**: Create a `.flx` file and start coding! Here's a simple example:
 
-### Hello, World!
-Here's a classic "Hello, World!" program in Flexa:
+    ```flexa
+    println("Hello, Flexa!");
+    ```
 
-```flx
-print("Hello, World!");
-```
+3. **Run Your Program**: Use the Flexa interpretor to execute your code:
 
-Save this code in a file with a `.flx` extension, for example, `hello.flx`. Then, run it using the Flexa interpreter:
+    ```bash
+    flexa run hello_world.flx
+    ```
 
-```bash
-$ ./flexa  hello.flx
-```
+4. **Explore the Documentation**: Dive deeper into Flexa by reading the [official documentation](https://flexa-script.github.io/docs/).
 
-You should see the output:
+## Documentation
 
-```
-Hello, World!
-```
+The Flexa documentation is organized into sections, starting from the basics and progressing to advanced topics. Here's what you'll find:
 
-For more detailed information and examples, check out the [documentation](https://flexa-script.github.io/).
+1. [Introduction](https://flexa-script.github.io/docs/introduction.md): Learn about Flexa's design philosophy and core concepts.
+2. [Basic Syntax](https://flexa-script.github.io/docs/basic-syntax.md): Understand the fundamental syntax and structure of Flexa programs.
+3. [Data Types](https://flexa-script.github.io/docs/data-types.md): Explore the types of data you can work with in Flexa.
+4. [Variables and Constants](https://flexa-script.github.io/docs/variables-and-constants.md): Learn how to declare and use variables and constants.
+5. [Control Structures](https://flexa-script.github.io/docs/control-structures.md): Master conditionals, loops, and flow control.
+6. [Functions](https://flexa-script.github.io/docs/function.md): Discover how to define and use functions in Flexa.
+7. [Data Structures](https://flexa-script.github.io/docs/data-structures.md): Work with arrays, structs, and other data structures.
+8. [Error Handling](https://flexa-script.github.io/docs/error-handling.md): Handle errors and exceptions gracefully.
+9. [Built-in Libraries](https://flexa-script.github.io/docs/built-in-libraries.md): Explore the powerful libraries included with Flexa.
+10. [Built-in Functions](https://flexa-script.github.io/docs/built-in-functions.md): Learn about the essential functions provided by Flexa.
+11. [Advanced Examples](https://flexa-script.github.io/docs/advanced-xamples.md): See real-world examples of Flexa in action.
+12. [Language Reference](https://flexa-script.github.io/docs/language-reference.md): Get a complete reference of Flexa's syntax and features.
+13. [FAQ and Common Issues](https://flexa-script.github.io/docs/faq-and-common-issues.md): Find answers to frequently asked questions.
+14. [Contributing](https://flexa-script.github.io/docs/contributing.md): Learn how to contribute to the Flexa project.
+
+Start your journey with Flexa by reading the [Introduction](https://flexa-script.github.io/docs/introduction.md).
 
 ## Contributing
 
-Contributions to Flexa are welcome! Whether you find a bug, have a feature request, or want to contribute code, please feel free to open an issue or submit a pull request.
+Flexa is an open-source project, and we welcome contributions from the community. Whether you want to report a bug, suggest a feature, or submit code, your help is appreciated. Check out the [Contributing Guide](https://flexa-script.github.io/docs/contributing.md) to learn how to get involved.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Flexa is licensed under the [MIT License](https://mit-license.org/). See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Happy coding with Flexa! 🚀
