@@ -245,8 +245,8 @@ fun add(a: int, b: int): int {
 
 ## What's Next?
 
-Now that you understand control structures, it's time to learn about **functions** in Flexa. Head over to the [Functions](functions.md) section to dive deeper.
+Now that you understand control structures, it's time to learn about **functions** in Flexa. Head over to the [Functions](functions) section to dive deeper.
 
 ---
 
-[← Back to Variables and Constants](variables-and-constants.md) | [Next: Functions →](functions.md)
+[← Back to Variables and Constants](variables-and-constants) | [Next: Functions →](functions)

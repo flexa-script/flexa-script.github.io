@@ -54,4 +54,4 @@ while (count < 5) {
 }
 ```
 
-See next: [Types](/types.md)
+See next: [Types](/types)

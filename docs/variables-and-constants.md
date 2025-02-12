@@ -118,8 +118,8 @@ var var;        // Reserved keyword
 
 ## What's Next?
 
-Now that you understand how to declare and use variables and constants, it's time to explore **control structures** like conditionals and loops. Head over to the [Control Structures](control-structures.md) section to learn more.
+Now that you understand how to declare and use variables and constants, it's time to explore **control structures** like conditionals and loops. Head over to the [Control Structures](control-structures) section to learn more.
 
 ---
 
-[← Back to Data Types](data-types.md) | [Next: Control Structures →](control-structures.md)
+[← Back to Data Types](data-types) | [Next: Control Structures →](control-structures)

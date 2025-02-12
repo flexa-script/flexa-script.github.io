@@ -39,14 +39,14 @@ To start using Flexa, you'll need to:
    flexa run hello_world.flx
    ```
 
-4. **Explore the Documentation**: Continue learning about Flexa by reading the [Basic Syntax](basic-syntax.md) guide.
+4. **Explore the Documentation**: Continue learning about Flexa by reading the [Basic Syntax](basic-syntax) guide.
 
 ---
 
 ## What's Next?
 
-Now that you have a basic understanding of Flexa, it's time to dive deeper into its syntax and features. The next section, [Basic Syntax](basic-syntax.md), will introduce you to the fundamental building blocks of Flexa programs.
+Now that you have a basic understanding of Flexa, it's time to dive deeper into its syntax and features. The next section, [Basic Syntax](basic-syntax), will introduce you to the fundamental building blocks of Flexa programs.
 
 ---
 
-[← Back to Home](../README.md) | [Next: Basic Syntax →](basic-syntax.md)
+[← Back to Home](../README) | [Next: Basic Syntax →](basic-syntax)

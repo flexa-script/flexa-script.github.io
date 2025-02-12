@@ -36,7 +36,7 @@ In this section, we address frequently asked questions (FAQ) and common issues t
    Yes, Flexa supports HTTP communication through the `flx.core.HTTP` library, making it suitable for web development.
 
 ### 6. **How do I contribute to Flexa?**
-   Check out the [Contributing Guide](contributing.md) for information on how to contribute to the Flexa project.
+   Check out the [Contributing Guide](contributing) for information on how to contribute to the Flexa project.
 
 ---
 
@@ -70,7 +70,7 @@ In this section, we address frequently asked questions (FAQ) and common issues t
 
 ## Troubleshooting Tips
 
-1. **Check the Documentation**: Many issues can be resolved by referring to the [Language Reference](language-reference.md) or other sections of the documentation.
+1. **Check the Documentation**: Many issues can be resolved by referring to the [Language Reference](language-reference) or other sections of the documentation.
 2. **Use Debugging Tools**: Print debug messages using `println` to trace the flow of your program and identify issues.
 3. **Search the Community**: If you're stuck, search the Flexa community forums or GitHub issues for similar problems.
 4. **Ask for Help**: If you can't find a solution, don't hesitate to ask for help in the Flexa community.
@@ -79,8 +79,8 @@ In this section, we address frequently asked questions (FAQ) and common issues t
 
 ## What's Next?
 
-If you're interested in contributing to the Flexa project, check out the [Contributing Guide](contributing.md) to learn how you can get involved.
+If you're interested in contributing to the Flexa project, check out the [Contributing Guide](contributing) to learn how you can get involved.
 
 ---
 
-[← Back to Language Reference](language-reference.md) | [Next: Contributing →](contributing.md)
+[← Back to Language Reference](language-reference) | [Next: Contributing →](contributing)

@@ -89,4 +89,4 @@ Thank you for contributing to Flexa! Your efforts help make the language better 
 
 ---
 
-[← Back to FAQ and Common Issues](faq-and-common-issues.md)
+[← Back to FAQ and Common Issues](faq-and-common-issues)

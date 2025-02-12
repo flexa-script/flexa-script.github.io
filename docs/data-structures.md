@@ -148,8 +148,8 @@ foreach (var person in people) {
 
 ## What's Next?
 
-Now that you understand how to work with arrays and structs, it's time to learn about **error handling** in Flexa. Head over to the [Error Handling](error-handling.md) section to dive deeper.
+Now that you understand how to work with arrays and structs, it's time to learn about **error handling** in Flexa. Head over to the [Error Handling](error-handling) section to dive deeper.
 
 ---
 
-[← Back to Functions](functions.md) | [Next: Error Handling →](error-handling.md)
+[← Back to Functions](functions) | [Next: Error Handling →](error-handling)

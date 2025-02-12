@@ -39,4 +39,4 @@ For more detailed information and examples, check out the [documentation](https:
 
 Contributions to Flexa are welcome! Whether you find a bug, have a feature request, or want to contribute code, please feel free to open an issue or submit a pull request.
 
-See next: [Types](/basic-program.md)
+See next: [Types](/basic-program)

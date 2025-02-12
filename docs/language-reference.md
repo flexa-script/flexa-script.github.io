@@ -217,8 +217,8 @@ Flexa provides a rich set of built-in libraries for tasks like file handling, ne
 
 ## What's Next?
 
-If you have questions or run into issues while using Flexa, check out the [FAQ and Common Issues](faq-and-common-issues.md) section for solutions and tips.
+If you have questions or run into issues while using Flexa, check out the [FAQ and Common Issues](faq-and-common-issues) section for solutions and tips.
 
 ---
 
-[← Back to Advanced Examples](advanced-examples.md) | [Next: FAQ and Common Issues →](faq-and-common-issues.md)
+[← Back to Advanced Examples](advanced-examples) | [Next: FAQ and Common Issues →](faq-and-common-issues)

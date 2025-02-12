@@ -193,8 +193,8 @@ println(result);
 
 ## What's Next?
 
-Now that you're familiar with the built-in functions, it's time to explore **advanced examples** that combine multiple features of Flexa. Head over to the [Advanced Examples](advanced-examples.md) section to see Flexa in action.
+Now that you're familiar with the built-in functions, it's time to explore **advanced examples** that combine multiple features of Flexa. Head over to the [Advanced Examples](advanced-examples) section to see Flexa in action.
 
 ---
 
-[← Back to Built-in Libraries](built-in-libraries.md) | [Next: Advanced Examples →](advanced-examples.md)
+[← Back to Built-in Libraries](built-in-libraries) | [Next: Advanced Examples →](advanced-examples)

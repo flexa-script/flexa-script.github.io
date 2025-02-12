@@ -128,8 +128,8 @@ var b: float = float(a); // Cast int to float
 
 ## What's Next?
 
-Now that you understand the data types supported by Flexa, it's time to learn how to declare and use **variables and constants**. Head over to the [Variables and Constants](variables-and-constants.md) section to dive deeper.
+Now that you understand the data types supported by Flexa, it's time to learn how to declare and use **variables and constants**. Head over to the [Variables and Constants](variables-and-constants) section to dive deeper.
 
 ---
 
-[← Back to Basic Syntax](basic-syntax.md) | [Next: Variables and Constants →](variables-and-constants.md)
+[← Back to Basic Syntax](basic-syntax) | [Next: Variables and Constants →](variables-and-constants)

@@ -131,8 +131,8 @@ try {
 
 ## What's Next?
 
-Now that you understand how to handle errors in Flexa, it's time to explore the **built-in libraries** that come with the language. Head over to the [Built-in Libraries](built-in-libraries.md) section to learn more.
+Now that you understand how to handle errors in Flexa, it's time to explore the **built-in libraries** that come with the language. Head over to the [Built-in Libraries](built-in-libraries) section to learn more.
 
 ---
 
-[← Back to Data Structures](data-structures.md) | [Next: Built-in Libraries →](built-in-libraries.md)
+[← Back to Data Structures](data-structures) | [Next: Built-in Libraries →](built-in-libraries)

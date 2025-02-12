@@ -141,8 +141,8 @@ println("Lowercase: " + to_lower(str));
 
 ## What's Next?
 
-Now that you're familiar with the built-in libraries, it's time to explore the **built-in functions** provided by Flexa. Head over to the [Built-in Functions](built-in-functions.md) section to learn more.
+Now that you're familiar with the built-in libraries, it's time to explore the **built-in functions** provided by Flexa. Head over to the [Built-in Functions](built-in-functions) section to learn more.
 
 ---
 
-[← Back to Error Handling](error-handling.md) | [Next: Built-in Functions →](built-in-functions.md)
+[← Back to Error Handling](error-handling) | [Next: Built-in Functions →](built-in-functions)

@@ -185,8 +185,8 @@ println(factorial(5)); // Prints 120
 
 ## What's Next?
 
-Now that you understand how to work with functions, it's time to explore **data structures** like arrays and structs. Head over to the [Data Structures](data-structures.md) section to learn more.
+Now that you understand how to work with functions, it's time to explore **data structures** like arrays and structs. Head over to the [Data Structures](data-structures) section to learn more.
 
 ---
 
-[← Back to Control Structures](control-structures.md) | [Next: Data Structures →](data-structures.md)
+[← Back to Control Structures](control-structures) | [Next: Data Structures →](data-structures)

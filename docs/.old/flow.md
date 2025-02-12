@@ -46,4 +46,4 @@ default:
 }
 ```
 
-See next: [Bar](/bar.md)
+See next: [Bar](/bar)

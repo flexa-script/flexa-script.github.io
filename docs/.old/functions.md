@@ -37,4 +37,4 @@ def foo(): string {
 ```
 
 
-See next: [Foo](/bar.md)
+See next: [Foo](/bar)

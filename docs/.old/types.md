@@ -49,4 +49,4 @@ var a: any;
 var b;
 ```
 
-See next: [Variables](/variables.md)
+See next: [Variables](/variables)

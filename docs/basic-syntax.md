@@ -119,8 +119,8 @@ Code blocks are enclosed in curly braces `{}` and are used to group multiple sta
 
 ## What's Next?
 
-Now that you understand the basic syntax of Flexa, it's time to explore the different **data types** supported by the language. Head over to the [Data Types](data-types.md) section to learn more.
+Now that you understand the basic syntax of Flexa, it's time to explore the different **data types** supported by the language. Head over to the [Data Types](data-types) section to learn more.
 
 ---
 
-[← Back to Introduction](introduction.md) | [Next: Data Types →](data-types.md)
+[← Back to Introduction](introduction) | [Next: Data Types →](data-types)

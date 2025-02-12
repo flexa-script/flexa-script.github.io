@@ -46,4 +46,4 @@ b = 7;
 ```
 Altought, if we define a variable with a type, it can't be assigned with other value than the defined.
 
-See next: [Functions](/functions.md)
+See next: [Functions](/functions)

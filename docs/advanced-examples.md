@@ -159,8 +159,8 @@ list_files(".");
 
 ## What's Next?
 
-Now that you've seen some advanced examples of Flexa in action, it's time to explore the **complete language reference**. Head over to the [Language Reference](language-reference.md) section for a detailed overview of Flexa's syntax and features.
+Now that you've seen some advanced examples of Flexa in action, it's time to explore the **complete language reference**. Head over to the [Language Reference](language-reference) section for a detailed overview of Flexa's syntax and features.
 
 ---
 
-[← Back to Built-in Functions](built-in-functions.md) | [Next: Language Reference →](language-reference.md)
+[← Back to Built-in Functions](built-in-functions) | [Next: Language Reference →](language-reference)
