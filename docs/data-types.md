@@ -54,7 +54,7 @@ Composite types are used to group multiple values together. They include:
    - Example:
      ```flexa
      var numbers: int[] = {1, 2, 3, 4, 5};
-     var matrix: int[][] = {{1, 2, 3}, {1, 2, 3}, {1, 2, 3}};
+     var matrix: int[][] = {% raw %}{{1, 2, 3}, {1, 2, 3}, {1, 2, 3}}{% endraw %};
      ```
 
 ### 2. **Structs**
