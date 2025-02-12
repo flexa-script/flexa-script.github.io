@@ -70,6 +70,29 @@ greet("Alice");   // Prints "Hello, Alice!"
 
 ---
 
+### Rest Parameters
+Functions can have rest parameters, which are used to receive a undefined number of parameters.
+
+```flexa
+fun max(...values): float {
+	if (len(values) == 0) {
+		return null;
+	}
+	
+	var greater: float = values[0];
+	
+	foreach (var val: float in values) {
+		greater = val > greater ? val : greater;
+	}
+
+	return greater;
+}
+
+println(max(1, 2, 3));
+```
+
+---
+
 ## Return Values
 
 Functions can return a value using the `return` statement. The return type must match the declared return type of the function.
