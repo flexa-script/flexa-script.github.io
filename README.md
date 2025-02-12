@@ -1,6 +1,6 @@
-# Flexa Programming Language
+# Flexa Scripting Language
 
-Welcome to the official documentation of the **Flexa Programming Language**! Flexa is a toy scripting language developed for fun.
+Welcome to the official documentation of the **Flexa Scripting Language**! Flexa is a toy scripting language developed for fun.
 
 ## Features
 
