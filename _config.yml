@@ -1,2 +1,6 @@
-# theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
+title: Flexa Script
+description: Flexa is a toy scripting language developed for fun.
+plugins:
+- jekyll-remote-theme
 include: contributing.md
