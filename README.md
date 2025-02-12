@@ -41,7 +41,7 @@ The Flexa documentation is organized into sections, starting from the basics and
 8. [Error Handling](https://flexa-script.github.io/docs/error-handling): Handle errors and exceptions gracefully.
 9. [Built-in Libraries](https://flexa-script.github.io/docs/built-in-libraries): Explore the powerful libraries included with Flexa.
 10. [Built-in Functions](https://flexa-script.github.io/docs/built-in-functions): Learn about the essential functions provided by Flexa.
-11. [Advanced Examples](https://flexa-script.github.io/docs/advanced-xamples): See real-world examples of Flexa in action.
+11. [Advanced Examples](https://flexa-script.github.io/docs/advanced-examples): See real-world examples of Flexa in action.
 12. [Language Reference](https://flexa-script.github.io/docs/language-reference): Get a complete reference of Flexa's syntax and features.
 13. [FAQ and Common Issues](https://flexa-script.github.io/docs/faq-and-common-issues): Find answers to frequently asked questions.
 14. [Contributing](https://flexa-script.github.io/docs/contributing): Learn how to contribute to the Flexa project.
