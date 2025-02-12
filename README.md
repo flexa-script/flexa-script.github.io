@@ -36,7 +36,7 @@ The Flexa documentation is organized into sections, starting from the basics and
 3. [Data Types](https://flexa-script.github.io/docs/data-types): Explore the types of data you can work with in Flexa.
 4. [Variables and Constants](https://flexa-script.github.io/docs/variables-and-constants): Learn how to declare and use variables and constants.
 5. [Control Structures](https://flexa-script.github.io/docs/control-structures): Master conditionals, loops, and flow control.
-6. [Functions](https://flexa-script.github.io/docs/function): Discover how to define and use functions in Flexa.
+6. [Functions](https://flexa-script.github.io/docs/functions): Discover how to define and use functions in Flexa.
 7. [Data Structures](https://flexa-script.github.io/docs/data-structures): Work with arrays, structs, and other data structures.
 8. [Error Handling](https://flexa-script.github.io/docs/error-handling): Handle errors and exceptions gracefully.
 9. [Built-in Libraries](https://flexa-script.github.io/docs/built-in-libraries): Explore the powerful libraries included with Flexa.
