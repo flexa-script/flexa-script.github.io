@@ -36,7 +36,7 @@ To start using Flexa, you'll need to:
 3. **Run Your Program**: Use the Flexa interpreter to execute your code:
 
    ```bash
-   flexa run hello_world.flx
+   flexa hello_world.flx
    ```
 
 4. **Explore the Documentation**: Continue learning about Flexa by reading the [Basic Syntax](basic-syntax) guide.

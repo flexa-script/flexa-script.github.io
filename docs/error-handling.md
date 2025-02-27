@@ -26,7 +26,7 @@ using flx.std.structs;
 
 try {
     var result = 10 / 0; // This will throw a division by zero error
-} catch (var error: flx::Exception) {
+} catch (error: flx::Exception) {
     println("An error occurred: " + error);
 }
 ```
@@ -59,7 +59,7 @@ fun divide(a: int, b: int): int {
 
 try {
     var result = divide(10, 0);
-} catch (var ex) {
+} catch (ex) {
     println("Error: " + ex.error); // Prints "Error: Division by zero is not allowed."
 }
 ```
@@ -74,7 +74,7 @@ You can unpack exceptions into variables to access specific properties or detail
 ```flexa
 try {
     throw Exception{error="An error occurred", code=500};
-} catch (var [error, code]) {
+} catch ([error, code]) {
     println("Error Code: " + code); // Prints "Error Code: 500"
     println("Error Message: " + error); // Prints "Error Message: An error occurred"
 }
@@ -103,7 +103,7 @@ try {
    ```flexa
    try {
        risky_operation();
-   } catch (var [error, code]) {
+   } catch ([error, code]) {
        println("Operation failed: " + error);
    }
    ```

@@ -12,7 +12,7 @@ Arrays are collections of elements of the same type. They are useful for storing
 Arrays are declared using the following syntax:
 
 ```flexa
-var array_name[]: type = {element1, element2, ...};
+var array_name: type[] = {element1, element2, ...};
 ```
 
 - `array_name`: The name of the array.
@@ -21,8 +21,8 @@ var array_name[]: type = {element1, element2, ...};
 
 #### Example
 ```flexa
-var numbers[]: int = {1, 2, 3, 4, 5};
-var names[]: string = {"Alice", "Bob", "Charlie"};
+var numbers: int[] = {1, 2, 3, 4, 5};
+var names: string[] = {"Alice", "Bob", "Charlie"};
 ```
 
 ### Accessing Array Elements
@@ -70,7 +70,7 @@ struct StructName {
     var field1: type;
     var field2: type;
     ...
-};
+}
 ```
 
 - `StructName`: The name of the struct.
@@ -81,7 +81,7 @@ struct StructName {
 struct Person {
     var name: string;
     var age: int;
-};
+}
 ```
 
 ### Creating Struct Instances
@@ -113,17 +113,17 @@ Structs can contain other structs as fields.
 struct Address {
     var street: string;
     var city: string;
-};
+}
 
 struct Employee {
     var name: string;
     var address: Address;
-};
+}
 
 var employee: Employee = Employee{
     name="Bob",
     address=Address{street="123 Main St", city="Springfield"}
-};
+}
 ```
 
 ---
@@ -133,7 +133,7 @@ var employee: Employee = Employee{
 You can create arrays of structs to manage collections of complex data.
 
 ```flexa
-var people[]: Person = {
+var people: Person[] = {
     Person{name="Alice", age=30},
     Person{name="Bob", age=25},
     Person{name="Charlie", age=35}

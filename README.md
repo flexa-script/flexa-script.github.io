@@ -22,7 +22,7 @@ Welcome to the official documentation of the **Flexa Scripting Language**! Flexa
 3. **Run Your Program**: Use the Flexa interpretor to execute your code:
 
     ```bash
-    flexa run hello_world.flx
+    flexa hello_world.flx
     ```
 
 4. **Explore the Documentation**: Dive deeper into Flexa by reading the [official documentation](https://flexa-script.github.io/docs/).

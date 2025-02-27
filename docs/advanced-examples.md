@@ -12,7 +12,6 @@ This example reads a file, processes its contents, and writes the results to a n
 using flx.core.files;
 using flx.std.strings;
 using flx.std.structs;
-using flx.std.collections.list;
 
 include namespace flx;
 
@@ -22,15 +21,15 @@ fun process_file(input_file: string, output_file: string): void {
         var content = read(file);
         var lines = split(content, "\n");
 
-        var processed_lines: List = create_list();
+        var processed_lines: string[] = {};
         foreach (var i = 0; i < len(lines); i++) {
             var trimmed_line = trim(line);
             if (trimmed_line != "") {
-                add(processed_lines, to_upper(trimmed_line));
+                processed_lines += {trimmed_line};
             }
         }
 
-        write_file(output_file, join(to_array(processed_lines), "\n"));
+        write_file(output_file, join(processed_lines, "\n"));
         println("File processed successfully.");
     } catch (var error) {
         println("Error processing file: " + error);
@@ -65,7 +64,7 @@ fun fetch_data(url: string): any {
         } else {
             throw "Failed to fetch data: " + response.status;
         }
-    } catch (var error) {
+    } catch (error) {
         println("Error fetching data: " + error);
         return null;
     }

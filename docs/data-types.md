@@ -105,7 +105,7 @@ Flexa also supports special types for specific use cases:
 
 ## Type Inference
 
-Flexa supports type inference, which means you don't always need to explicitly specify the type of a variable. The compiler can infer the type based on the assigned value.
+Flexa supports type inference, which means you don't always need to explicitly specify the type of a variable. The compiler can infer the type based on the assigned value. An inferred variable will always have the any type, wich means that will accepts values of any type.
 
 ```flexa
 var x = 10;       // x is any, but it's value is inferred as int

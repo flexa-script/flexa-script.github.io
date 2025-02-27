@@ -29,7 +29,7 @@ var price: float = 19.99;   // Explicitly typed variable
 Variables in Flexa have block scope, meaning they are only accessible within the block where they are declared.
 
 ```flexa
-{
+statement {
     var x = 10; // x is only accessible within this block
     println(x); // Works fine
 }
@@ -62,7 +62,7 @@ const GREETING = "Hello!";  // Type inferred as string
 Like variables, constants have block scope and are only accessible within the block where they are declared.
 
 ```flexa
-{
+statement {
     const TAX_RATE = 0.07; // TAX_RATE is only accessible within this block
     println(TAX_RATE);     // Works fine
 }
@@ -98,14 +98,14 @@ var var;        // Reserved keyword
 
 1. **Use Descriptive Names**: Choose meaningful names that describe the purpose of the variable or constant.
    ```flexa
-   var userAge = 25;       // Good
+   var user_age = 25;      // Good
    var ua = 25;            // Avoid
    ```
 
 2. **Prefer Constants for Fixed Values**: Use `const` for values that do not change, as it makes your code more predictable and easier to understand.
    ```flexa
    const MAX_RETRIES = 3;  // Good
-   var maxRetries = 3;     // Avoid if the value is fixed
+   var max_retries = 3;    // Avoid if the value is fixed
    ```
 
 3. **Initialize Variables**: Always initialize variables when declaring them to avoid undefined behavior.

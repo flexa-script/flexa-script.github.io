@@ -48,7 +48,7 @@ using my_library.utils; // Import a custom library
 
 A Flexa program typically consists of:
 1. A **namespace declaration**.
-2. **Library imports** (optional).
+2. **Library imports**.
 3. **Function and variable declarations**.
 4. **Executable code** (e.g., function calls).
 
@@ -90,15 +90,16 @@ const PI: float = 3.14; // Declare a constant
 ## Basic Input and Output
 
 Flexa provides built-in functions for basic input and output operations:
-- `print([message, [...messages]])`: Prints a message to the console without a newline.
-- `println([message, [...messages]])`: Prints a message to the console with a newline.
-- `read([message])`: Reads a line of input from the console.
+- `print(...args)`: Prints a message to the console without a newline.
+- `println(...args)`: Prints a message to the console with a newline.
+- `read(...args)`: Reads a line of input from the console.
 - `readch()`: Reads a single character from the console.
 
 ```flexa
-println("Enter your name:");
-var name = read();
+var name = read("Enter your name:");
 println("Hello, " + name + "!");
+var age = read("Enter your age:");
+println("Yout age is ", age, "!");
 ```
 
 ---
@@ -108,7 +109,7 @@ println("Hello, " + name + "!");
 Code blocks are enclosed in curly braces `{}` and are used to group multiple statements together. They are commonly used in functions, loops, and conditionals.
 
 ```flexa
-{
+statement {
     var a = 10;
     var b = 20;
     println(a + b);
