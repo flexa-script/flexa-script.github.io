@@ -38,7 +38,7 @@ using flx.core.console;
 include namespace flx;
 
 fun main() {
-	println("Hello, Flexa!");
+  println("Hello, Flexa!");
 }
 
 main();
@@ -128,14 +128,14 @@ const name: type = value;
 ### Function Declaration
 ```flexa
 fun name(parameter: type, ...): return_type {
-	// Function body
+  // Function body
 }
 ```
 
 ### Lambda Functions
 ```flexa
 var lambda: function = fun (parameter: type, ...): return_type {
-	// Function body
+  // Function body
 };
 ```
 
@@ -146,8 +146,8 @@ var lambda: function = fun (parameter: type, ...): return_type {
 ### Struct Declaration
 ```flexa
 struct Name {
-	var field1: type;
-	var field2: type;
+  var field1: type;
+  var field2: type;
 }
 ```
 
@@ -177,9 +177,9 @@ var element = array[index];
 ### Try-Catch
 ```flexa
 try {
-	// Code that may throw an exception
+  // Code that may throw an exception
 } catch (var error) {
-	// Handle the exception
+  // Handle the exception
 }
 ```
 

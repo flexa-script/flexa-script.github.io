@@ -75,17 +75,17 @@ Functions can have rest parameters, which are used to receive a undefined number
 
 ```flexa
 fun max(...values): float {
-	if (len(values) == 0) {
-		return null;
-	}
-	
-	var greater: float = values[0];
-	
-	foreach (var val: float in values) {
-		greater = val > greater ? val : greater;
-	}
+  if (len(values) == 0) {
+    return null;
+  }
 
-	return greater;
+  var greater: float = values[0];
+
+  foreach (var val: float in values) {
+    greater = val > greater ? val : greater;
+  }
+
+  return greater;
 }
 
 println(max(1, 2, 3));
