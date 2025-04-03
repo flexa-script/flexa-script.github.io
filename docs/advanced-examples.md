@@ -16,24 +16,24 @@ using flx.std.structs;
 include namespace flx;
 
 fun process_file(input_file: string, output_file: string): void {
-    try {
-        var file = open(input_file, MODE_READ);
-        var content = read(file);
-        var lines = split(content, "\n");
+  try {
+    var file = open(input_file, MODE_READ);
+    var content = read(file);
+    var lines = split(content, "\n");
 
-        var processed_lines: string[] = {};
-        foreach (var i = 0; i < len(lines); i++) {
-            var trimmed_line = trim(line);
-            if (trimmed_line != "") {
-                processed_lines += {trimmed_line};
-            }
-        }
-
-        write_file(output_file, join(processed_lines, "\n"));
-        println("File processed successfully.");
-    } catch (var error) {
-        println("Error processing file: " + error);
+    var processed_lines: string[] = {};
+    foreach (var i = 0; i < len(lines); i++) {
+      var trimmed_line = trim(line);
+      if (trimmed_line != "") {
+        processed_lines += {trimmed_line};
+      }
     }
+
+    write_file(output_file, join(processed_lines, "\n"));
+    println("File processed successfully.");
+  } catch (var error) {
+    println("Error processing file: " + error);
+  }
 }
 
 process_file("input.txt", "output.txt");
@@ -53,26 +53,26 @@ using flx.std.structs;
 include namespace flx;
 
 fun fetch_data(url: string): any {
-    try {
-        var response = request(HttpConfig {
-            hostname=url,
-            method=GET
-        });
-        if (response.status == 200) {
-            var data = json_parse(response.data);
-            return data;
-        } else {
-            throw "Failed to fetch data: " + response.status;
-        }
-    } catch (error) {
-        println("Error fetching data: " + error);
-        return null;
+  try {
+    var response = request(HttpConfig {
+      hostname=url,
+      method=GET
+    });
+    if (response.status == 200) {
+      var data = json_parse(response.data);
+      return data;
+    } else {
+      throw "Failed to fetch data: " + response.status;
     }
+  } catch (error) {
+    println("Error fetching data: " + error);
+    return null;
+  }
 }
 
 var data = fetch_data("https://api.example.com/data");
 if (data != null) {
-    println("Received data: " + json_stringify(data));
+  println("Received data: " + json_stringify(data));
 }
 ```
 
@@ -91,29 +91,29 @@ using flx.std.collections.list;
 include namespace flx;
 
 struct MyStack {
-    var items: List;
+  var items: List;
 }
 
 fun push(stack: MyStack, item: any): void {
-    add(stack.items, item);
+  add(stack.items, item);
 }
 
 fun pop(stack: MyStack) {
-    if (size(stack.items) == 0) {
-        throw "Stack is empty";
-    }
-    delete(stack.items, size(stack.items) - 1);
+  if (size(stack.items) == 0) {
+    throw "Stack is empty";
+  }
+  delete(stack.items, size(stack.items) - 1);
 }
 
 fun peek(stack: MyStack): any {
-    if (size(stack.items) == 0) {
-        throw "Stack is empty";
-    }
-    return get(stack.items, size(stack.items) - 1);
+  if (size(stack.items) == 0) {
+    throw "Stack is empty";
+  }
+  return get(stack.items, size(stack.items) - 1);
 }
 
 fun is_empty(stack: MyStack): bool {
-    return size(stack.items) == 0;
+  return size(stack.items) == 0;
 }
 
 var stack = MyStack{};

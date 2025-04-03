@@ -62,8 +62,8 @@ Composite types are used to group multiple values together. They include:
    - Example:
      ```flexa
      struct Person {
-         var name: string;
-         var age: int;
+       var name: string;
+       var age: int;
      };
 
      var person: Person = Person{name="Alice", age=30};
@@ -80,7 +80,7 @@ Flexa also supports special types for specific use cases:
    - Example:
      ```flexa
      var greet: function = fun (name: string) {
-         println("Hello, " + name + "!");
+       println("Hello, " + name + "!");
      };
      ```
 
@@ -89,7 +89,7 @@ Flexa also supports special types for specific use cases:
    - Example:
      ```flexa
      fun say_hello(): void {
-         println("Hello!");
+       println("Hello!");
      }
      ```
 

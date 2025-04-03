@@ -52,7 +52,7 @@ You can use a `foreach` loop to iterate over the elements of an array.
 
 ```flexa
 foreach (var num in numbers) {
-    println("Number: " + num);
+  println("Number: " + num);
 }
 ```
 
@@ -67,9 +67,9 @@ Structs are declared using the `struct` keyword, followed by the struct name and
 
 ```flexa
 struct StructName {
-    var field1: type;
-    var field2: type;
-    ...
+  var field1: type;
+  var field2: type;
+  ...
 }
 ```
 
@@ -79,8 +79,8 @@ struct StructName {
 #### Example
 ```flexa
 struct Person {
-    var name: string;
-    var age: int;
+  var name: string;
+  var age: int;
 }
 ```
 
@@ -111,18 +111,18 @@ Structs can contain other structs as fields.
 
 ```flexa
 struct Address {
-    var street: string;
-    var city: string;
+  var street: string;
+  var city: string;
 }
 
 struct Employee {
-    var name: string;
-    var address: Address;
+  var name: string;
+  var address: Address;
 }
 
 var employee: Employee = Employee{
-    name="Bob",
-    address=Address{street="123 Main St", city="Springfield"}
+  name="Bob",
+  address=Address{street="123 Main St", city="Springfield"}
 }
 ```
 
@@ -134,13 +134,13 @@ You can create arrays of structs to manage collections of complex data.
 
 ```flexa
 var people: Person[] = {
-    Person{name="Alice", age=30},
-    Person{name="Bob", age=25},
-    Person{name="Charlie", age=35}
+  Person{name="Alice", age=30},
+  Person{name="Bob", age=25},
+  Person{name="Charlie", age=35}
 };
 
 foreach (var person in people) {
-    println(person.name + " is " + person.age + " years old.");
+  println(person.name + " is " + person.age + " years old.");
 }
 ```
 

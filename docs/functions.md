@@ -10,7 +10,7 @@ A function in Flexa is declared using the following syntax:
 
 ```flexa
 fun function_name(parameter1: type, parameter2: type, ...): return_type {
-    // Function body
+  // Function body
 }
 ```
 
@@ -22,7 +22,7 @@ fun function_name(parameter1: type, parameter2: type, ...): return_type {
 ### Example
 ```flexa
 fun greet(name: string): void {
-    println("Hello, " + name + "!");
+  println("Hello, " + name + "!");
 }
 ```
 
@@ -50,7 +50,7 @@ Functions can accept parameters, which are variables that hold the values passed
 ### Example with Parameters
 ```flexa
 fun add(a: int, b: int): int {
-    return a + b;
+  return a + b;
 }
 
 var result = add(5, 10); // result = 15
@@ -61,7 +61,7 @@ You can provide default values for parameters, which are used if no argument is 
 
 ```flexa
 fun greet(name: string = "Guest"): void {
-    println("Hello, " + name + "!");
+  println("Hello, " + name + "!");
 }
 
 greet();          // Prints "Hello, Guest!"
@@ -100,7 +100,7 @@ Functions can return a value using the `return` statement. The return type must 
 ### Example
 ```flexa
 fun square(x: int): int {
-    return x * x;
+  return x * x;
 }
 
 var result = square(5); // result = 25
@@ -110,7 +110,7 @@ If a function does not return a value, its return type should be `void`.
 
 ```flexa
 fun say_hello(): void {
-    println("Hello!");
+  println("Hello!");
 }
 ```
 
@@ -122,8 +122,8 @@ Variables declared inside a function are local to that function and cannot be ac
 
 ```flexa
 fun example(): void {
-    var x = 10; // x is local to the example function
-    println(x); // Works fine
+  var x = 10; // x is local to the example function
+  println(x); // Works fine
 }
 
 // println(x); // Error: x is out of scope
@@ -137,15 +137,15 @@ Flexa supports anonymous functions, also known as lambdas. These are functions w
 
 ### Syntax
 ```flexa
-var lambda_name: function = fun (parameters): return_type {
-    // Function body
+var lambda_name: function = lambda (parameters): return_type {
+  // Function body
 };
 ```
 
 ### Example
 ```flexa
-var square: function = fun (x: int): int {
-    return x * x;
+var square: function = lambda (x: int): int {
+  return x * x;
 };
 
 println(square(5)); // Prints 25
@@ -160,7 +160,7 @@ Higher-order functions are functions that take other functions as parameters or 
 ### Example
 ```flexa
 fun apply_twice(func: function, x: int): int {
-    return func(func(x));
+  return func(func(x));
 }
 
 var result = apply_twice(fun (x: int): int { return x + 1; }, 5); // result = 7
@@ -175,10 +175,10 @@ Functions in Flexa can call themselves, a technique known as recursion.
 ### Example
 ```flexa
 fun factorial(n: int): int {
-    if (n <= 1) {
-        return 1;
-    }
-    return n * factorial(n - 1);
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
 }
 
 println(factorial(5)); // Prints 120
@@ -191,14 +191,14 @@ println(factorial(5)); // Prints 120
 1. **Use Descriptive Names**: Choose meaningful names for functions that describe their purpose.
    ```flexa
    fun calculate_area(width: float, height: float): float {
-       return width * height;
+     return width * height;
    }
    ```
 
 2. **Keep Functions Small**: Break down complex tasks into smaller, reusable functions.
    ```flexa
    fun validate_input(input: string): bool {
-       return input != "";
+     return input != "";
    }
    ```
 

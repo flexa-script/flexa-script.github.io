@@ -60,7 +60,7 @@ namespace hello_world;
 using flx.core.console;
 
 fun main() {
-    println("Hello, Flexa!");
+  println("Hello, Flexa!");
 }
 
 fun main();
@@ -110,9 +110,9 @@ Code blocks are enclosed in curly braces `{}` and are used to group multiple sta
 
 ```flexa
 statement {
-    var a = 10;
-    var b = 20;
-    println(a + b);
+  var a = 10;
+  var b = 20;
+  println(a + b);
 }
 ```
 

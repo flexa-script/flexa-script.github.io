@@ -27,7 +27,7 @@ To start using Flexa, you'll need to:
    namespace hello_world;
 
    fun main() {
-       println("Hello, Flexa!");
+     println("Hello, Flexa!");
    }
 
    fun main();

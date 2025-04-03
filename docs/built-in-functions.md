@@ -150,8 +150,8 @@ println("The array has ", len(numbers), " elements.");
 ```flexa
 println("Starting countdown:");
 for (var i = 5; i >= 1; i--) {
-    println(i);
-    sleep(1000); // Wait 1 second
+  println(i);
+  sleep(1000); // Wait 1 second
 }
 println("Blast off!");
 ```
@@ -179,9 +179,9 @@ println(result);
 
    var age = read();
    if (is_number(age)) {
-       println("Your age is: ", age);
+     println("Your age is: ", age);
    } else {
-       println("Invalid input. Please enter a number.");
+     println("Invalid input. Please enter a number.");
    }
    ```
 

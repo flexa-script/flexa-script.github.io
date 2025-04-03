@@ -11,9 +11,9 @@ The `try-catch` block allows you to handle exceptions that may occur during the 
 ### Syntax
 ```flexa
 try {
-    // Code that may throw an exception
+  // Code that may throw an exception
 } catch (error) {
-    // Code to handle the exception
+  // Code to handle the exception
 }
 ```
 
@@ -25,9 +25,9 @@ try {
 using flx.std.structs;
 
 try {
-    var result = 10 / 0; // This will throw a division by zero error
+  var result = 10 / 0; // This will throw a division by zero error
 } catch (error: flx::Exception) {
-    println("An error occurred: " + error);
+  println("An error occurred: " + error);
 }
 ```
 
@@ -52,15 +52,15 @@ include namespace flx;
 
 fun divide(a: int, b: int): int {
     if (b == 0) {
-        throw "Division by zero is not allowed.";
+      throw "Division by zero is not allowed.";
     }
     return a / b;
 }
 
 try {
-    var result = divide(10, 0);
+  var result = divide(10, 0);
 } catch (ex) {
-    println("Error: " + ex.error); // Prints "Error: Division by zero is not allowed."
+  println("Error: " + ex.error); // Prints "Error: Division by zero is not allowed."
 }
 ```
 
@@ -73,10 +73,10 @@ You can unpack exceptions into variables to access specific properties or detail
 ### Example
 ```flexa
 try {
-    throw Exception{error="An error occurred", code=500};
+  throw Exception{error="An error occurred", code=500};
 } catch ([error, code]) {
-    println("Error Code: " + code); // Prints "Error Code: 500"
-    println("Error Message: " + error); // Prints "Error Message: An error occurred"
+  println("Error Code: " + code); // Prints "Error Code: 500"
+  println("Error Message: " + error); // Prints "Error Message: An error occurred"
 }
 ```
 
@@ -89,9 +89,9 @@ If you want to ignore errors, you can use `...` in the `catch` block. This is us
 ### Example
 ```flexa
 try {
-    var result = 10 / 0;
+  var result = 10 / 0;
 } catch (...) {
-    println("An error occurred, but it was ignored.");
+  println("An error occurred, but it was ignored.");
 }
 ```
 
@@ -102,9 +102,9 @@ try {
 1. **Handle Errors Gracefully**: Always handle exceptions to prevent your program from crashing unexpectedly.
    ```flexa
    try {
-       risky_operation();
+     risky_operation();
    } catch ([error, code]) {
-       println("Operation failed: " + error);
+     println("Operation failed: " + error);
    }
    ```
 
@@ -112,18 +112,18 @@ try {
    ```flexa
    // Bad practice
    try {
-       risky_operation();
+      risky_operation();
    } catch (...) {
-       // Do nothing
+     // Do nothing
    }
    ```
 
 3. **Log Errors**: Log errors for debugging and monitoring purposes.
    ```flexa
    try {
-       risky_operation();
+     risky_operation();
    } catch (var error) {
-       log_error(error);
+     log_error(error);
    }
    ```
 

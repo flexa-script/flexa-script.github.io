@@ -9,6 +9,7 @@ Variables and constants are fundamental building blocks in Flexa. They allow you
 Variables are used to store data that can change during the execution of a program. In Flexa, variables are declared using the `var` keyword.
 
 ### Syntax
+
 ```flexa
 var variable_name: type = value;
 ```
@@ -18,6 +19,7 @@ var variable_name: type = value;
 - `value`: The initial value assigned to the variable (optional).
 
 ### Examples
+
 ```flexa
 var age: int = 25;          // Explicitly typed variable
 var name = "Alice";         // Type inferred as string
@@ -26,12 +28,13 @@ var price: float = 19.99;   // Explicitly typed variable
 ```
 
 ### Variable Scope
+
 Variables in Flexa have block scope, meaning they are only accessible within the block where they are declared.
 
 ```flexa
 statement {
-    var x = 10; // x is only accessible within this block
-    println(x); // Works fine
+  var x = 10; // x is only accessible within this block
+  println(x); // Works fine
 }
 // println(x); // Error: x is out of scope
 ```
@@ -43,6 +46,7 @@ statement {
 Constants are used to store data that does not change during the execution of a program. In Flexa, constants are declared using the `const` keyword and must be initialized with a value.
 
 ### Syntax
+
 ```flexa
 const constant_name: type = value;
 ```
@@ -52,6 +56,7 @@ const constant_name: type = value;
 - `value`: The value assigned to the constant (required).
 
 ### Examples
+
 ```flexa
 const PI: float = 3.14;     // Explicitly typed constant
 const MAX_USERS = 100;      // Type inferred as int
@@ -59,12 +64,13 @@ const GREETING = "Hello!";  // Type inferred as string
 ```
 
 ### Constant Scope
+
 Like variables, constants have block scope and are only accessible within the block where they are declared.
 
 ```flexa
 statement {
-    const TAX_RATE = 0.07; // TAX_RATE is only accessible within this block
-    println(TAX_RATE);     // Works fine
+  const TAX_RATE = 0.07; // TAX_RATE is only accessible within this block
+  println(TAX_RATE);     // Works fine
 }
 // println(TAX_RATE); // Error: TAX_RATE is out of scope
 ```
@@ -79,6 +85,7 @@ statement {
 - Reserved keywords (e.g., `var`, `const`, `fun`) cannot be used as names.
 
 ### Examples of Valid Names
+
 ```flexa
 var myVar;
 var _privateVar;
@@ -86,6 +93,7 @@ var user123;
 ```
 
 ### Examples of Invalid Names
+
 ```flexa
 var 123user;    // Cannot start with a digit
 var my-var;     // Hyphens are not allowed
@@ -97,12 +105,14 @@ var var;        // Reserved keyword
 ## Best Practices
 
 1. **Use Descriptive Names**: Choose meaningful names that describe the purpose of the variable or constant.
+
    ```flexa
    var user_age = 25;      // Good
    var ua = 25;            // Avoid
    ```
 
 2. **Prefer Constants for Fixed Values**: Use `const` for values that do not change, as it makes your code more predictable and easier to understand.
+
    ```flexa
    const MAX_RETRIES = 3;  // Good
    var max_retries = 3;    // Avoid if the value is fixed

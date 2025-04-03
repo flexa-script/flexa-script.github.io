@@ -7,7 +7,7 @@ In this section, we address frequently asked questions (FAQ) and common issues t
 ## Frequently Asked Questions (FAQ)
 
 ### 1. **How do I install Flexa?**
-   Flexa can be installed by downloading the interpreter from the [official repository](https://github.com/flexa-script/interpreter). Follow the installation instructions provided in the repository's README file.
+   Flexa can be installed by downloading the interpreter from the [official repository](https://github.com/flexa-script/interpreter). Then unzip downloaded file in your root directory.
 
 ### 2. **How do I run a Flexa program?**
    Use the Flexa compiler to run your program:
@@ -26,9 +26,9 @@ In this section, we address frequently asked questions (FAQ) and common issues t
    ```flexa
    using flx.std.structs;
    try {
-       risky_operation();
+     risky_operation();
    } catch (var error) {
-       println("Error: " + error);
+     println("Error: " + error);
    }
    ```
 
@@ -72,8 +72,6 @@ In this section, we address frequently asked questions (FAQ) and common issues t
 
 1. **Check the Documentation**: Many issues can be resolved by referring to the [Language Reference](language-reference) or other sections of the documentation.
 2. **Use Debugging Tools**: Print debug messages using `println` to trace the flow of your program and identify issues.
-3. **Search the Community**: If you're stuck, search the Flexa community forums or GitHub issues for similar problems.
-4. **Ask for Help**: If you can't find a solution, don't hesitate to ask for help in the Flexa community.
 
 ---
 

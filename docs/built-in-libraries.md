@@ -51,7 +51,7 @@ using library_name;
 ```flexa
 using flx.std.math;
 
-println("The value of PI is: " + PI);
+println("The value of PI is: ", PI);
 ```
 
 ---
@@ -93,11 +93,13 @@ This library enables HTTP communication.
 ```flexa
 using flx.core.HTTP;
 
+include namespace flx;
+
 // Sends an HTTP GET request to https://api.example.com/data
-var response = request(HttpConfig {
-    hostname="api.example.com"
-    path="data",
-    method=GET
+var response: HttpResponse = request(HttpRequest {
+  hostname="api.example.com"
+  path="data",
+  method=GET
 });
 println(response.data);
 ```
