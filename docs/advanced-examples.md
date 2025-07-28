@@ -162,4 +162,4 @@ Now that you've seen some advanced examples of Flexa in action, it's time to exp
 
 ---
 
-[← Back to Built-in Functions](built-in-functions) | [Next: Language Reference →](language-reference)
+[← Back to Built-in Functions](built-in-functions) | [Next: FAQ and Common Issues →](faq-and-common-issues)

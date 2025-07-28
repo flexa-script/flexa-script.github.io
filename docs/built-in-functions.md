@@ -8,10 +8,10 @@ Flexa provides a set of built-in functions that are always available, regardless
 
 Here are the main built-in functions in Flexa:
 
-1. **print**: Writes a message to the console without a newline.
-2. **println**: Writes a message to the console with a newline.
-3. **read**: Reads a line of input from the console.
-4. **readch**: Reads a single character from the console.
+1. **print**: Writes one or more values to the console without a newline.
+2. **println**: Writes one or more values to the console followed by a newline.
+3. **read**: Reads a line of input from the console; can optionally display one or more prompt messages.
+4. **readch**: Reads a single character from the console; can also accept prompt messages.
 5. **len**: Returns the length of a string or array.
 6. **sleep**: Pauses the program for a specified number of milliseconds.
 7. **system**: Executes a system command.
@@ -123,6 +123,44 @@ var result = system(command);
 ```flexa
 var result = system("ls -l"); // Lists files in the current directory (Unix-based systems)
 println(result);
+```
+
+---
+
+## Input and Output with Multiple Parameters
+
+The functions `print`, `println`, `read`, and `readch` in Flexa support **zero or more arguments**. This means you can pass any number of values to these functions, and they will automatically concatenate and format them.
+
+This makes input and output highly flexible and convenient, especially for debugging or building dynamic messages.
+
+### Examples
+
+```flexa
+println(); // Prints just a newline
+
+println("Hello"); // Prints: Hello
+
+println("Hello,", " ", "world!", 42); 
+// Prints: Hello, world!42
+
+var name = "John";
+var age = 30;
+print("Name: ", name, ", Age: ", age);
+// Output: Name: John, Age: 30
+```
+
+```flexa
+var key = readch("Press any key to continue...");
+println("You pressed:", " ", key);
+```
+
+You can also use `read()` without arguments for a prompt-less input:
+
+```flexa
+var input = read(); // Waits for user input without printing anything
+
+var response = read("Type something: ");
+println("You typed:", response);
 ```
 
 ---

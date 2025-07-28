@@ -24,19 +24,13 @@ To start using Flexa, you'll need to:
 2. **Write Your First Program**: Create a `.flx` file and write your code. Here's a simple example:
 
    ```flexa
-   namespace hello_world;
-
-   fun main() {
-     println("Hello, Flexa!");
-   }
-
-   fun main();
+   println("Hello, Flexa!");
    ```
 
 3. **Run Your Program**: Use the Flexa interpreter to execute your code:
 
    ```bash
-   flexa hello_world.flx
+   ./flexa ./hello_world.flx
    ```
 
 4. **Explore the Documentation**: Continue learning about Flexa by reading the [Basic Syntax](basic-syntax) guide.

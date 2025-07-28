@@ -21,20 +21,20 @@ Here is a list of the main built-in libraries in Flexa:
 11. **flx.std.collections.list**: Provides dynamic arrays and list operations.
 12. **flx.std.collections.queue**: Implements queue data structures (FIFO).
 13. **flx.std.collections.stack**: Implements stack data structures (LIFO).
-14. **flx.std.DSL.FML**: Supports the FML (Flexa Markup Language) DSL for data serialization.
+14. **flx.std.DSL.FML**: Provides FML (Flexa Markup Language) parsing and serialization.
 15. **flx.std.DSL.JSON**: Provides JSON parsing and serialization.
-16. **flx.std.DSL.XML**: Supports XML parsing and serialization.
+16. **flx.std.DSL.XML**: Provides XML parsing and serialization.
 17. **flx.std.DSL.YAML**: Provides YAML parsing and serialization.
-17. **flx.std.DSL.CSV**: Provides CSV parsing and serialization.
-18. **flx.std.arrays**: Offers advanced array manipulation functions.
-19. **flx.std.math**: Provides mathematical functions and constants.
-20. **flx.std.print**: Enhances printing capabilities with formatting options.
-21. **flx.std.random**: Implements random number generation and randomization utilities.
-22. **flx.std.stopwatch**: Measures elapsed time for performance tracking.
-23. **flx.std.strings**: Provides advanced string manipulation functions.
-24. **flx.std.structs**: Supports custom struct operations and utilities.
-25. **flx.std.testing**: Offers tools for writing and running tests.
-26. **flx.std.utils**: Includes miscellaneous utility functions.
+18. **flx.std.DSL.CSV**: Provides CSV parsing and serialization.
+19. **flx.std.arrays**: Offers advanced array manipulation functions.
+20. **flx.std.math**: Provides mathematical functions and constants.
+21. **flx.std.print**: Enhances printing capabilities with formatting options.
+22. **flx.std.random**: Implements random number generation and randomization utilities.
+23. **flx.std.stopwatch**: Measures elapsed time for performance tracking.
+24. **flx.std.strings**: Provides advanced string manipulation functions.
+25. **flx.std.types**: Contais some useful struct types.
+26. **flx.std.testing**: Offers tools for writing and running tests.
+27. **flx.std.utils**: Includes miscellaneous utility functions.
 
 ---
 

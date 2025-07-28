@@ -26,6 +26,35 @@ fun greet(name: string): void {
 }
 ```
 
+### 📝 Notes
+
+* **Specifying parameter and return types is not mandatory**.
+* **If the return type is not specified but the function contains a `return` statement, the return type is inferred as `any`**.
+
+#### Example
+
+```flexa
+fun greet(name: string): void {
+  println("Hello, " + name + "!");
+}
+```
+
+Or without explicit types:
+
+```flexa
+fun greet(name) {
+  println("Hello, " + name + "!");
+}
+```
+
+And with implicit return type:
+
+```flexa
+fun sum(a, b) {
+  return a + b; // the function type will be inferred as `any`
+}
+```
+
 ---
 
 ## Calling Functions

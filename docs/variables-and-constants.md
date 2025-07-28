@@ -32,7 +32,7 @@ var price: float = 19.99;   // Explicitly typed variable
 Variables in Flexa have block scope, meaning they are only accessible within the block where they are declared.
 
 ```flexa
-statement {
+<statement> {
   var x = 10; // x is only accessible within this block
   println(x); // Works fine
 }
@@ -68,7 +68,7 @@ const GREETING = "Hello!";  // Type inferred as string
 Like variables, constants have block scope and are only accessible within the block where they are declared.
 
 ```flexa
-statement {
+<statement> {
   const TAX_RATE = 0.07; // TAX_RATE is only accessible within this block
   println(TAX_RATE);     // Works fine
 }
@@ -88,7 +88,7 @@ statement {
 
 ```flexa
 var myVar;
-var _privateVar;
+var _private_var;
 var user123;
 ```
 
@@ -132,4 +132,4 @@ Now that you understand how to declare and use variables and constants, it's tim
 
 ---
 
-[← Back to Data Types](data-types) | [Next: Control Structures →](control-structures)
+[← Back to Operators](operators) | [Next: Control Structures →](control-structures)

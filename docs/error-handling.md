@@ -22,7 +22,7 @@ try {
 
 ### Example
 ```flexa
-using flx.std.structs;
+using flx.std.types;
 
 try {
   var result = 10 / 0; // This will throw a division by zero error
@@ -46,13 +46,13 @@ throw expression;
 
 ### Example
 ```flexa
-using flx.std.structs;
+using flx.std.types;
 
 include namespace flx;
 
 fun divide(a: int, b: int): int {
     if (b == 0) {
-      throw "Division by zero is not allowed.";
+      throw std::Exception{error="Division by zero is not allowed.", code=1};
     }
     return a / b;
 }
@@ -62,6 +62,12 @@ try {
 } catch (ex) {
   println("Error: " + ex.error); // Prints "Error: Division by zero is not allowed."
 }
+```
+
+Bare strings can be used to throw exceptions too:
+
+```flexa
+throw "Generating a default exception.";
 ```
 
 ---

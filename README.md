@@ -33,6 +33,7 @@ The Flexa documentation is organized into sections, starting from the basics and
 
 1. [Introduction](https://flexa-script.github.io/docs/introduction): Learn about Flexa's design philosophy and core concepts.
 2. [Basic Syntax](https://flexa-script.github.io/docs/basic-syntax): Understand the fundamental syntax and structure of Flexa programs.
+3. [Operators](https://flexa-script.github.io/docs/operators): Perform calculations, comparisons, and logical operations.
 3. [Data Types](https://flexa-script.github.io/docs/data-types): Explore the types of data you can work with in Flexa.
 4. [Variables and Constants](https://flexa-script.github.io/docs/variables-and-constants): Learn how to declare and use variables and constants.
 5. [Control Structures](https://flexa-script.github.io/docs/control-structures): Master conditionals, loops, and flow control.
@@ -42,9 +43,8 @@ The Flexa documentation is organized into sections, starting from the basics and
 9. [Built-in Libraries](https://flexa-script.github.io/docs/built-in-libraries): Explore the powerful libraries included with Flexa.
 10. [Built-in Functions](https://flexa-script.github.io/docs/built-in-functions): Learn about the essential functions provided by Flexa.
 11. [Advanced Examples](https://flexa-script.github.io/docs/advanced-examples): See real-world examples of Flexa in action.
-12. [Language Reference](https://flexa-script.github.io/docs/language-reference): Get a complete reference of Flexa's syntax and features.
-13. [FAQ and Common Issues](https://flexa-script.github.io/docs/faq-and-common-issues): Find answers to frequently asked questions.
-14. [Contributing](https://flexa-script.github.io/docs/contributing): Learn how to contribute to the Flexa project.
+12. [FAQ and Common Issues](https://flexa-script.github.io/docs/faq-and-common-issues): Find answers to frequently asked questions.
+13. [Contributing](https://flexa-script.github.io/docs/contributing): Learn how to contribute to the Flexa project.
 
 Start your journey with Flexa by reading the [Introduction](https://flexa-script.github.io/docs/introduction).
 

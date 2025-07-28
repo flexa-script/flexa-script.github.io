@@ -12,7 +12,8 @@ Namespaces are used to organize code and avoid naming conflicts, but it's not ma
 namespace my_namespace;
 ```
 
-All code in the file belongs to this namespace.
+All code in the file belongs to this namespace. If no namespace is specified, the default `__default__` namespace is used.
+
 
 ---
 
@@ -38,7 +39,7 @@ Flexa supports two types of comments:
 To use external libraries or modules, Flexa provides the `using` keyword. This allows you to include functionality from other files or libraries.
 
 ```flexa
-using flx.core.console; // Import the console library
+using flx.std.types; // Import the console library
 using my_library.utils; // Import a custom library
 ```
 
@@ -57,10 +58,10 @@ Here's an example of a simple Flexa program:
 ```flexa
 namespace hello_world;
 
-using flx.core.console;
+using flx.std.strings;
 
 fun main() {
-  println("Hello, Flexa!");
+  println("Hello, Flexa", flx::repeat("!", 3));
 }
 
 fun main();
@@ -75,7 +76,7 @@ Variables are declared using the `var` keyword, followed by the variable name, a
 
 ```flexa
 var x: int = 10; // Declare an integer variable
-var y = 20;      // Type inference (y is inferred as int)
+var y = 20;      // Type inference, y is declared as any and value is inferred as int
 ```
 
 ### Constants
@@ -109,7 +110,7 @@ println("Yout age is ", age, "!");
 Code blocks are enclosed in curly braces `{}` and are used to group multiple statements together. They are commonly used in functions, loops, and conditionals.
 
 ```flexa
-statement {
+<statement> {
   var a = 10;
   var b = 20;
   println(a + b);

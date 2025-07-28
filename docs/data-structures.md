@@ -25,6 +25,14 @@ var numbers: int[] = {1, 2, 3, 4, 5};
 var names: string[] = {"Alice", "Bob", "Charlie"};
 ```
 
+### Declaring Array Size
+Arrays can be defined with a fixed size using the following syntax:
+
+```flexa
+var numbers: int[5] = {1, 2, 3, 4, 5};
+var names: string[3] = {"Alice", "Bob", "Charlie"};
+```
+
 ### Accessing Array Elements
 Array elements are accessed using their index (starting from 0).
 
@@ -123,6 +131,25 @@ struct Employee {
 var employee: Employee = Employee{
   name="Bob",
   address=Address{street="123 Main St", city="Springfield"}
+}
+```
+
+### Iterating Over Arrays
+You can use a `foreach` loop to iterate over the key-value pairs of an struct.
+
+```flexa
+using flx.std.types;
+
+foreach (entry: Pair in employee) {
+  println(key + ": " + value);
+}
+```
+
+Unpacked declarations can be used to get key-value entries too.
+
+```flexa
+foreach (var [key, value] in employee) {
+  println(key + ": " + value);
 }
 ```
 

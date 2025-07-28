@@ -54,7 +54,7 @@ Composite types are used to group multiple values together. They include:
    - Example:
      ```flexa
      var numbers: int[] = {1, 2, 3, 4, 5};
-     var matrix: int[][] = {% raw %}{{1, 2, 3}, {1, 2, 3}, {1, 2, 3}}{% endraw %};
+     var matrix: int[3][3] = {% raw %}{{1, 2, 3}, {1, 2, 3}, {1, 2, 3}}{% endraw %};
      ```
 
 ### 2. **Structs**
@@ -128,8 +128,8 @@ var b: float = float(a); // Cast int to float
 
 ## What's Next?
 
-Now that you understand the data types supported by Flexa, it's time to learn how to declare and use **variables and constants**. Head over to the [Variables and Constants](variables-and-constants) section to dive deeper.
+Now that you understand the data types supported by Flexa, it's time to learn how to operate values. Head over to the [Operators](operators) section to dive deeper.
 
 ---
 
-[← Back to Basic Syntax](basic-syntax) | [Next: Variables and Constants →](variables-and-constants)
+[← Back to Basic Syntax](basic-syntax) | [Next: Operators →](operators)
