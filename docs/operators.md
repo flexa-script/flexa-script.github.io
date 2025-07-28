@@ -98,6 +98,25 @@ Used for referencing and dereferencing variables:
 
 ---
 
+## Type and Introspection Operators
+
+Useful for inspecting or identifying values at runtime:
+
+* `typeof(x)` — Returns the type name of `x` as a string
+  e.g. `"int"`, `"bool"`, `"string"`, `"MyStruct"`
+
+* `typeid(x)` — Returns a unique integer ID for the type of `x`
+
+* `refid(x)` — Returns the reference ID of an object or array (useful to check if two references point to the same entity)
+
+* `is_struct(x)` — Returns `true` if `x` is a struct instance
+
+* `is_array(x)` — Returns `true` if `x` is an array
+
+* `is_any(x)` — Returns `true` if `x` is of type `any`
+
+---
+
 ## Ternary Operator
 
 Shorthand conditional expression:
