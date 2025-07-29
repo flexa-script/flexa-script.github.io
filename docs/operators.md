@@ -96,6 +96,8 @@ Used for referencing and dereferencing variables:
 - `ref` — Get the original reference of a value
 - `unref` — Get a copy of a value
 
+**Note:** struct type values are referenced by default.
+
 ---
 
 ## Type and Introspection Operators
