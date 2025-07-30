@@ -160,7 +160,44 @@ var employee: Employee = Employee{
 }
 ```
 
-### Iterating Over Arrays
+Aqui está a seção atualizada com a nova informação sobre *unpacking* de variáveis `struct` em Flexa:
+
+### Unpacking Struct Variables
+
+In Flexa, variables of type `struct` can be *unpacked* directly into multiple variables using square brackets. This allows you to extract fields from a struct instance in a single line.
+
+#### Syntax
+
+```flexa
+var [field1, field2, ...] = struct_variable;
+```
+
+Each variable on the left-hand side corresponds to the respective field in the struct, in the order they were declared in the struct definition.
+
+#### Example
+
+Given a struct:
+
+```flexa
+struct Person {
+  name: string;
+  age: int;
+}
+```
+
+You can unpack an instance as follows:
+
+```flexa
+var person1 = Person("Alice", 30);
+var [name, age] = person1;
+
+println(name); // "Alice"
+println(age);  // 30
+```
+
+This feature improves readability and reduces boilerplate when working with structured data.
+
+### Iterating Over Structs
 You can use a `foreach` loop to iterate over the key-value pairs of an struct.
 
 ```flexa
