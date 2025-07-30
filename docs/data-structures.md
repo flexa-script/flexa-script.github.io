@@ -9,6 +9,7 @@ Data structures allow you to organize and store data efficiently. Flexa provides
 Arrays are collections of elements of the same type. They are useful for storing and manipulating sequences of data.
 
 ### Declaring Arrays
+
 Arrays are declared using the following syntax:
 
 ```flexa
@@ -20,12 +21,14 @@ var array_name: type[] = {element1, element2, ...};
 - `element1`, `element2`, ...: The initial elements of the array.
 
 #### Example
+
 ```flexa
 var numbers: int[] = {1, 2, 3, 4, 5};
 var names: string[] = {"Alice", "Bob", "Charlie"};
 ```
 
 ### Declaring Array Size
+
 Arrays can be defined with a fixed size using the following syntax:
 
 ```flexa
@@ -33,8 +36,28 @@ var numbers: int[5] = {1, 2, 3, 4, 5};
 var names: string[3] = {"Alice", "Bob", "Charlie"};
 ```
 
+### Initializing Fixed-Size Arrays
+
+When an array has a fixed size (e.g. `int[10]`), you can initialize it in different ways:
+
+| Syntax                          | Description                                            |
+| ------------------------------- | ------------------------------------------------------ |
+| `var arr: int[10];`             | Declares an array with 10 elements (all uninitialized) |
+| `var arr: int[10] = {};`        | Initializes all positions with `null`                  |
+| `var arr: int[10] = {0};`       | Initializes all positions with the value `0`           |
+| `var arr: int[10] = {1,2,...};` | Initializes with explicit values per index             |
+
+#### Example
+
+```flexa
+var empty: int[5] = {};       // All values are null
+var zeros: int[5] = {0};      // All values are 0
+var data: int[5] = {1,2,3,4,5}; // Explicit initialization
+```
+
 ### Accessing Array Elements
-Array elements are accessed using their index (starting from 0).
+
+Array elements are accessed using their index (starting from 0):
 
 ```flexa
 var first_number = numbers[0]; // first_number = 1
@@ -42,21 +65,24 @@ var second_name = names[1];    // second_name = "Bob"
 ```
 
 ### Modifying Array Elements
-You can modify array elements by assigning new values to specific indices.
+
+You can modify array elements by assigning new values to specific indices:
 
 ```flexa
 numbers[0] = 10; // numbers = {10, 2, 3, 4, 5}
 ```
 
 ### Array Length
-The length of an array can be obtained using the `len` function.
+
+The length of an array can be obtained using the `len` function:
 
 ```flexa
 var count = len(numbers); // count = 5
 ```
 
 ### Iterating Over Arrays
-You can use a `foreach` loop to iterate over the elements of an array.
+
+You can use a `foreach` loop to iterate over the elements of an array:
 
 ```flexa
 foreach (var num in numbers) {
