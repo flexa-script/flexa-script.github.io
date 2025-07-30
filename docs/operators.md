@@ -10,13 +10,15 @@ This page provides a concise reference to all operators available in the Flexa l
 
 These operators perform basic mathematical operations:
 
-- `+` — Addition
-- `-` — Subtraction
-- `*` — Multiplication
-- `/` — Division
-- `%` — Modulo (remainder)
-- `**` — Exponentiation (power)
-- `/%` — Floor division (integer result)
+| Operator | Description                     |
+| -------- | ------------------------------- |
+| `+`      | Addition                        |
+| `-`      | Subtraction                     |
+| `*`      | Multiplication                  |
+| `/`      | Division                        |
+| `%`      | Modulo (remainder)              |
+| `**`     | Exponentiation (power)          |
+| `/%`     | Floor division (integer result) |
 
 ---
 
@@ -24,17 +26,15 @@ These operators perform basic mathematical operations:
 
 Used to compare values. These expressions return a boolean result:
 
-- `==` — Equal
-- `!=` — Not equal
-- `<` — Less than
-- `>` — Greater than
-- `<=` — Less than or equal
-- `>=` — Greater than or equal
-- `<=>` — Three-way comparison
-  Returns:
-  - `-1` if left < right
-    - `0` if left == right
-    - `1` if left > right
+| Operator | Description                                                                                  |
+| -------- | -------------------------------------------------------------------------------------------- |
+| `==`     | Equal                                                                                        |
+| `!=`     | Not equal                                                                                    |
+| `<`      | Less than                                                                                    |
+| `>`      | Greater than                                                                                 |
+| `<=`     | Less than or equal                                                                           |
+| `>=`     | Greater than or equal                                                                        |
+| `<=>`    | Three-way comparison. Returns:<br>• `-1` if left < right<br>• `0` if equal<br>• `1` if left > right |
 
 ---
 
@@ -42,9 +42,11 @@ Used to compare values. These expressions return a boolean result:
 
 Used for boolean logic:
 
-- `and` — Logical AND
-- `or` — Logical OR
-- `not` — Logical NOT
+| Operator | Description |
+| -------- | ----------- |
+| `and`    | Logical AND |
+| `or`     | Logical OR  |
+| `not`    | Logical NOT |
 
 ---
 
@@ -52,12 +54,14 @@ Used for boolean logic:
 
 Operate directly on binary representations of integers:
 
-- `&` — Bitwise AND
-- `|` — Bitwise OR
-- `^` — Bitwise XOR
-- `~` — Bitwise NOT
-- `<<` — Left shift
-- `>>` — Right shift
+| Operator | Description |
+| -------- | ----------- |
+| `&`      | Bitwise AND |
+| `\|`     | Bitwise OR  |
+| `^`      | Bitwise XOR |
+| `~`      | Bitwise NOT |
+| `<<`     | Left shift  |
+| `>>`     | Right shift |
 
 ---
 
@@ -65,27 +69,32 @@ Operate directly on binary representations of integers:
 
 Used to assign values to variables:
 
-- `=` — Simple assignment
-- `+=` — Add and assign
-- `-=` — Subtract and assign
-- `*=` — Multiply and assign
-- `/=` — Divide and assign
-- `%=` — Modulo and assign
-- `**=` — Power and assign
-- `&=` — Bitwise AND and assign
-- `|=` — Bitwise OR and assign
-- `^=` — Bitwise XOR and assign
-- `<<=` — Left shift and assign
-- `>>=` — Right shift and assign
+| Operator | Description            |
+| -------- | ---------------------- |
+| `=`      | Simple assignment      |
+| `+=`     | Add and assign         |
+| `-=`     | Subtract and assign    |
+| `*=`     | Multiply and assign    |
+| `/=`     | Divide and assign      |
+| `%=`     | Modulo and assign      |
+| `/%=`    | Floor division and assign |
+| `**=`    | Power and assign       |
+| `&=`     | Bitwise AND and assign |
+| `\|=`    | Bitwise OR and assign  |
+| `^=`     | Bitwise XOR and assign |
+| `<<=`    | Left shift and assign  |
+| `>>=`    | Right shift and assign |
 
 ---
 
-## Increment and Decrement Operators
+## Increment and Decrement
 
 Shorthand for increasing or decreasing a value:
 
-- `++` — Increment by 1
-- `--` — Decrement by 1
+| Operator | Description    |
+| -------- | -------------- |
+| `++`     | Increment by 1 |
+| `--`     | Decrement by 1 |
 
 ---
 
@@ -93,8 +102,10 @@ Shorthand for increasing or decreasing a value:
 
 Used for referencing and dereferencing variables:
 
-- `ref` — Get the original reference of a value
-- `unref` — Get a copy of a value
+| Operator | Description                           |
+| -------- | ------------------------------------- |
+| `ref`    | Get the original reference of a value |
+| `unref`  | Get a copy of a value                 |
 
 **Note:** struct type values are referenced by default.
 
@@ -104,18 +115,14 @@ Used for referencing and dereferencing variables:
 
 Useful for inspecting or identifying values at runtime:
 
-* `typeof(x)` — Returns the type name of `x` as a string
-  e.g. `"int"`, `"bool"`, `"string"`, `"MyStruct"`
-
-* `typeid(x)` — Returns a unique integer ID for the type of `x`
-
-* `refid(x)` — Returns the reference ID of an object or array (useful to check if two references point to the same entity)
-
-* `is_struct(x)` — Returns `true` if `x` is a struct instance
-
-* `is_array(x)` — Returns `true` if `x` is an array
-
-* `is_any(x)` — Returns `true` if `x` is of type `any`
+| Operator       | Description                                     |
+| -------------- | ----------------------------------------------- |
+| `typeof(x)`    | Returns the type name of `x` as a string e.g. `"int"`, `"bool"`, `"string"`, `"MyStruct"` |
+| `typeid(x)`    | Returns a unique integer ID for the type of `x` |
+| `refid(x)`     | Returns the reference ID of an object or array (useful to check if two references point to the same entity) |
+| `is_struct(x)` | Returns `true` if `x` is a struct instance      |
+| `is_array(x)`  | Returns `true` if `x` is an array               |
+| `is_any(x)`    | Returns `true` if `x` is of type `any`          |
 
 ---
 
@@ -125,7 +132,7 @@ Shorthand conditional expression:
 
 ```flexa
 condition ? expression_if_true : expression_if_false
-````
+```
 
 Example:
 
