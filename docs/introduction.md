@@ -43,4 +43,4 @@ Now that you have a basic understanding of Flexa, it's time to dive deeper into 
 
 ---
 
-[← Back to Home](../README) | [Next: Basic Syntax →](basic-syntax)
+[← Back to Home](/) | [Next: Basic Syntax →](basic-syntax)
